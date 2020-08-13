@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import PageNotFound from './components/PageNotFound'
 import { SbContext } from './context/Context';
+import Footer from './components/Footer';
 
 import { SET_CURRENT_USER, SET_LOADING } from './context/action.types'
 import reducer from './context/reducer';
