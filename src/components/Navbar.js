@@ -25,8 +25,8 @@ const Navbar = () => {
     return (
 
 
-        <nav className="navbar navbar-expand-lg navbar-light my-3" style={{ backgroundColor: '#E84342 !important' }}>
-            <p className="navbar-brand">Slambook</p>
+        <nav className="navbar navbar-expand-lg navbar-light my-2" style={{ backgroundColor: '#E84342 !important' }}>
+            <a className="navbar-brand text-center" href='/'>Slambook</a>
             {
                 currentUser ? (
                     <>

@@ -54,7 +54,7 @@ function App() {
 
       <ToastContainer />
 
-      <div className="col-md-11 col-12 mx-auto">
+      <div className="col-md-11 col-12 mx-auto" style={{ minHeight: '100vh' }}>
         <Router>
           <Navbar />
           <Switch>
@@ -67,6 +67,8 @@ function App() {
           </Switch>
         </Router>
       </div>
+
+      <Footer />
 
 
     </SbContext.Provider>

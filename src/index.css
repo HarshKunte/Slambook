@@ -37,6 +37,12 @@ body {
 .primary-text {
   color: var(--primary);
 }
+.footer {
+  bottom: 0;
+}
+.footer p {
+  color: white;
+}
 
 @media (max-width: 320px) {
   .nav-tabs .nav-link {
