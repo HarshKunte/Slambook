@@ -28,7 +28,7 @@ const Memories = () => {
                 </div>) :
                     (
                         <div className="container d-flex justify-content-center">
-                            <h5 className='text-danger'>No Memories ! </h5>
+                            <h5 className='text-danger mt-5'>No Memories ! </h5>
                         </div>
                     )
             }
