@@ -50,7 +50,7 @@ const MySlamCard = () => {
     return (
         <Fragment>
             <div className="row d-flex justify-content-center align-items-center">
-                <ul className="list-group list-group-horizontal">
+                <ul className="list-group d-flex flex-wrap list-group-horizontal">
                     {
                         mySlamsArray && mySlamsArray.length !== 0 ? (
                             mySlamsArray.map((myslam, index) => (
@@ -88,7 +88,7 @@ const MySlamCard = () => {
                                 <CopyToClipboard text={`${URL}slambook/${my_slambook.id}`}
                                     onCopy={() => toast('URL Copied', { type: 'success' })}
                                 >
-                                    <p className='slam_url'>{`${URL}slambook/${my_slambook.id}`}
+                                    <p className='slam_url'>Click icon to copy URL
                                         <MdContentCopy size={25} className='text-danger ml-2' style={{ cursor: 'pointer' }} />
                                     </p>
                                 </CopyToClipboard>

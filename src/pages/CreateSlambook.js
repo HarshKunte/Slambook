@@ -143,7 +143,7 @@ const CreateSlambook = () => {
                                             <CopyToClipboard text={url}
                                                 onCopy={() => toast('URL Copied', { type: 'success' })}
                                             >
-                                                <p className='slam_url'>{url}
+                                                <p className='slam_url'>Click icon to copy URL.
                                                     <MdContentCopy size={25} className='text-danger ml-2' style={{ cursor: 'pointer' }} />
                                                 </p>
                                             </CopyToClipboard>
