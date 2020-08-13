@@ -87,7 +87,7 @@ const CreateSlambook = () => {
                         toast('Slambook created! Copy url shown above to share slambook', {
                             type: 'success'
                         })
-                        setUrl(`${URL}${docRef.id}`)
+                        setUrl(`${URL}slambook/${docRef.id}`)
                         setQuestions([])
                         setTitle(null)
                     })

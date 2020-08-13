@@ -85,7 +85,7 @@ const MySlamCard = () => {
                             <div className="py-2 d-flex flex-column align-items-center justify-content-center">
                                 <p>Copy this URL to share this slambook.</p>
 
-                                <CopyToClipboard text={`${URL}${my_slambook.id}`}
+                                <CopyToClipboard text={`${URL}slambook/${my_slambook.id}`}
                                     onCopy={() => toast('URL Copied', { type: 'success' })}
                                 >
                                     <p className='slam_url'>{`${URL}${my_slambook.id}`}
