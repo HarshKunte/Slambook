@@ -88,7 +88,7 @@ const MySlamCard = () => {
                                 <CopyToClipboard text={`${URL}slambook/${my_slambook.id}`}
                                     onCopy={() => toast('URL Copied', { type: 'success' })}
                                 >
-                                    <p className='slam_url'>{`${URL}${my_slambook.id}`}
+                                    <p className='slam_url'>{`${URL}slambook/${my_slambook.id}`}
                                         <MdContentCopy size={25} className='text-danger ml-2' style={{ cursor: 'pointer' }} />
                                     </p>
                                 </CopyToClipboard>
