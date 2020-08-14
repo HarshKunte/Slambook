@@ -13,4 +13,7 @@ You can copy url and share slambook with friedns.
 ### [Click to visit website](https://online-slambook.netlify.app/)
 
 ![Home](https://github.com/HarshKunte/Slambook/blob/master/readme_images/Home.png)
+
 ![Create Slambook](https://github.com/HarshKunte/Slambook/blob/master/readme_images/Create.png)
+
+![View Slambook](https://github.com/HarshKunte/Slambook/blob/master/readme_images/View.png)
